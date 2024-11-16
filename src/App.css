@@ -1,0 +1,78 @@
+.custom-heading {
+    margin-left: 100px;  /* Adjust left margin */
+    color: #17a2b8;  /* Bootstrap info color */
+    font-size: 46px;  /* Font size remains the same */
+    font-weight: bold;  /* Make the text bold */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);  /* Light shadow for text */
+    padding: 20px 40px;  /* Increased padding on the left and right */
+    border-left: 5px solid #17a2b8;  /* Border on the left side */
+    box-shadow: 6px 6px 30px rgba(255, 255, 255, 0.6);  /* Enhanced white box-shadow */
+    border-radius: 5px;  /* Rounded corners */
+    width: 40%;  /* Reduced width to half of its current size */
+    height: 90px;  /* Height reduced to 3/4 of 120px */
+}
+
+
+.card-title {
+  padding: 5px 15px; /* Adjusted padding for a sleek look */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background */
+  color: #ffffff; /* White text color for better contrast */
+  box-shadow: none; /* Removed heavy shadow for a cleaner look */
+  border-radius: 8px; /* Slightly rounded corners */
+  margin: 0 auto; /* Center the title */
+  font-size: 1.1rem; /* Slightly smaller font size */
+  font-weight: 600; /* Bolder text */
+  text-align: center; /* Center the text */
+  display: inline-block; /* Ensures the box wraps around the text */
+  letter-spacing: 1px; /* Adds spacing between letters for a modern feel */
+  transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+/* Hover effect to add subtle scaling */
+.card-title:hover {
+  transform: scale(1.05);
+}
+
+
+  /* styles.css */
+.category-button {
+    background-color: rgb(222, 222, 226);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .category-button i {
+    color: rgb(177, 48, 48);
+  }
+  
+  .shake-btn {
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .shake-btn:hover {
+    transform: scale(1.1); /* Optional: Slightly enlarges the button on hover */
+    background-color: black;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.8); /* Strong box-shadow all around */
+  }
+  
+  .shake-btn:hover i {
+    color: white; /* Change icon color to white on hover */
+  }
+  
+
+  .no-category-message {
+    background-color: aliceblue;
+    color: black;
+    font-weight: 700;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+  }
+  
